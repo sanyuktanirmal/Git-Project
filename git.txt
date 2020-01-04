@@ -28,5 +28,776 @@ filter.lfs.required=true
 credential.helper=manager
 add.interactive.usebuiltin=true
 user.name=sanyukta nirmal
+
+
+
+
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project
+$ git config --global user.name "sanyukta nirmal"
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project
+$ git config --global user.email "sanyukta_nirmal@persistent.com"
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project
+$ git config --list
+core.symlinks=true
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+credential.helper=manager
+add.interactive.usebuiltin=true
+user.name=sanyukta nirmal
+user.email=sanyukta_nirmal@persistent.com
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project
+$ git config --global core.editor "notepad"
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project
+$ git config --list
+core.symlinks=true
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+credential.helper=manager
+add.interactive.usebuiltin=true
+user.name=sanyukta nirmal
+user.email=sanyukta_nirmal@persistent.com
+core.editor=notepad
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project
+$ ^C
+
+
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project
+$ get init
+bash: get: command not found
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project
+$ git inot
+git: 'inot' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project
+$ git init
+Initialized empty Git repository in C:/FrontEnd/Git Project/.git/
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$
+
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git init
+Reinitialized existing Git repository in C:/FrontEnd/Git Project/.git/
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        file1.txt
+        git.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git add file1.txt
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   file1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        git.txt
+
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git commit `~m
+> git commit `~m "file1 create hello file message "
+bash: ~m: command not found
+hint: Waiting for your editor to close the file... unix2dos: converting file C:/FrontEnd/Git Project/.git/COMMIT_EDITMSG to DOS format...
+
+
+dos2unix: converting file C:/FrontEnd/Git Project/.git/COMMIT_EDITMSG to Unix format...
+Aborting commit due to empty commit message.
+error: pathspec '~m' did not match any file(s) known to git
+error: pathspec 'file1 create hello file message ' did not match any file(s) known to git
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git commit `~m
+git commit `~m "file1 create hello file message "
+bash: ~m: command not found
+hint: Waiting for your editor to close the file... unix2dos: converting file C:/FrontEnd/Git Project/.git/COMMIT_EDITMSG to DOS format...
+dos2unix: converting file C:/FrontEnd/Git Project/.git/COMMIT_EDITMSG to Unix format...
+Aborting commit due to empty commit message.
+error: pathspec '~m' did not match any file(s) known to git
+error: pathspec 'file1 create hello file message ' did not match any file(s) known to git
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git commit ~m "file1 welcome hello txt file"
+error: pathspec '~m' did not match any file(s) known to git
+error: pathspec 'file1 welcome hello txt file' did not match any file(s) known to git
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git commit -m "file1 welcome hello txt file"
+[master (root-commit) e10aff5] file1 welcome hello txt file
+ 1 file changed, 2 insertions(+)
+ create mode 100644 file1.txt
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        git.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git add file1.txt
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        git.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git add git.txt
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   git.txt
+
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   git.txt
+
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git commit -m "file1 welcome hello txt file"
+[master 8477434] file1 welcome hello txt file
+ 1 file changed, 32 insertions(+)
+ create mode 100644 git.txt
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   file1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git commit -am "large number file"
+[master b68c100] large number file
+ 1 file changed, 3 insertions(+)
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git commit -am " change the login status"
+[master c4da1fb]  change the login status
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+        New Text Document (2).txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git add .
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git commit -am " Added .gitignore to untrack class and jar ,temp,bin"
+[master 7c0b5c3]  Added .gitignore to untrack class and jar ,temp,bin
+ 1 file changed, 4 insertions(+)
+ create mode 100644 .gitignore
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git log --oneline
+7c0b5c3 (HEAD -> master)  Added .gitignore to untrack class and jar ,temp,bin
+c4da1fb  change the login status
+b68c100 large number file
+8477434 file1 welcome hello txt file
+e10aff5 file1 welcome hello txt file
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git log --oneline -2
+7c0b5c3 (HEAD -> master)  Added .gitignore to untrack class and jar ,temp,bin
+c4da1fb  change the login status
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git log --author "sanyukta"
+commit 7c0b5c394a65b31ecf219c3f89fd1b99e17ca637 (HEAD -> master)
+Author: sanyukta nirmal <sanyukta_nirmal@persistent.com>
+Date:   Fri Jan 3 15:06:00 2020 +0530
+
+     Added .gitignore to untrack class and jar ,temp,bin
+
+commit c4da1fb855b78c2bb07a4eb73e886974a2985f43
+Author: sanyukta nirmal <sanyukta_nirmal@persistent.com>
+Date:   Fri Jan 3 14:53:13 2020 +0530
+
+     change the login status
+
+commit b68c10012db60eed5c638c057548429c35271a5b
+Author: sanyukta nirmal <sanyukta_nirmal@persistent.com>
+Date:   Fri Jan 3 14:50:43 2020 +0530
+
+    large number file
+
+commit 8477434f9b915024dd78c75091337af2d21f1980
+Author: sanyukta nirmal <sanyukta_nirmal@persistent.com>
+Date:   Fri Jan 3 14:47:49 2020 +0530
+
+    file1 welcome hello txt file
+
+commit e10aff5af1d1255a94e6a662e7732becff8ce55e
+Author: sanyukta nirmal <sanyukta_nirmal@persistent.com>
+Date:   Fri Jan 3 14:44:57 2020 +0530
+
+    file1 welcome hello txt file
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git log --since="3/1/2020"
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git log --since="2/1/2020"
+commit 7c0b5c394a65b31ecf219c3f89fd1b99e17ca637 (HEAD -> master)
+Author: sanyukta nirmal <sanyukta_nirmal@persistent.com>
+Date:   Fri Jan 3 15:06:00 2020 +0530
+
+     Added .gitignore to untrack class and jar ,temp,bin
+
+commit c4da1fb855b78c2bb07a4eb73e886974a2985f43
+Author: sanyukta nirmal <sanyukta_nirmal@persistent.com>
+Date:   Fri Jan 3 14:53:13 2020 +0530
+
+     change the login status
+
+commit b68c10012db60eed5c638c057548429c35271a5b
+Author: sanyukta nirmal <sanyukta_nirmal@persistent.com>
+Date:   Fri Jan 3 14:50:43 2020 +0530
+
+    large number file
+
+commit 8477434f9b915024dd78c75091337af2d21f1980
+Author: sanyukta nirmal <sanyukta_nirmal@persistent.com>
+Date:   Fri Jan 3 14:47:49 2020 +0530
+
+    file1 welcome hello txt file
+
+commit e10aff5af1d1255a94e6a662e7732becff8ce55e
+Author: sanyukta nirmal <sanyukta_nirmal@persistent.com>
+Date:   Fri Jan 3 14:44:57 2020 +0530
+
+    file1 welcome hello txt file
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git log --grep="login"
+commit c4da1fb855b78c2bb07a4eb73e886974a2985f43
+Author: sanyukta nirmal <sanyukta_nirmal@persistent.com>
+Date:   Fri Jan 3 14:53:13 2020 +0530
+
+     change the login status
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git log --help
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   file1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git diff
+diff --git a/file1.txt b/file1.txt
+index 786ad1c..0fa1620 100644
+--- a/file1.txt
++++ b/file1.txt
+@@ -3,4 +3,6 @@ hello world....
+
+
+ large number file...
+-change the logic for update
+\ No newline at end of file
++change the logic for update
++
++change to check file status
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git add .
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   file1.txt
+
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git diff
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git diff --staged
+diff --git a/file1.txt b/file1.txt
+index 786ad1c..0fa1620 100644
+--- a/file1.txt
++++ b/file1.txt
+@@ -3,4 +3,6 @@ hello world....
+
+
+ large number file...
+-change the logic for update
+\ No newline at end of file
++change the logic for update
++
++change to check file status
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   file1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        deletefile.txt
+
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git add .
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   deletefile.txt
+        modified:   file1.txt
+
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git commit -m "file 1 is updated to check status and file 2 redy to deleted"
+[master eb60688] file 1 is updated to check status and file 2 redy to deleted
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+ create mode 100644 deletefile.txt
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git log --oneline
+eb60688 (HEAD -> master) file 1 is updated to check status and file 2 redy to deleted
+7c0b5c3  Added .gitignore to untrack class and jar ,temp,bin
+c4da1fb  change the login status
+b68c100 large number file
+8477434 file1 welcome hello txt file
+e10aff5 file1 welcome hello txt file
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    deletefile.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git rm deletefile.txt
+rm 'deletefile.txt'
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        deleted:    deletefile.txt
+
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git commit -m "file to be deleted from project folder"
+[master ab26764] file to be deleted from project folder
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 deletefile.txt
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git ststus
+git: 'ststus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git status\
+> git status
+git: 'statusgit' is not a git command. See 'git --help'.
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git commit -m "file1 is updated for revert change line"
+On branch master
+Changes not staged for commit:
+        modified:   file1.txt
+
+no changes added to commit
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+git status--oneline
+ab26764 (HEAD -> master) file to be deleted from project folder
+eb60688 file 1 is updated to check status and file 2 redy to deleted
+7c0b5c3  Added .gitignore to untrack class and jar ,temp,bin
+c4da1fb  change the login status
+b68c100 large number file
+8477434 file1 welcome hello txt file
+e10aff5 file1 welcome hello txt file
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ ^V^M
+bash: $'\026': command not found
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ ^C
+
+dos2unix: converting file C:/FrontEnd/Git Project/.git/COMMIT_EDITMSG to Unix format...
+[master ed412c2] Revert "file to be deleted from project folder"
+ 1 file changed, 1 insertion(+)
+ create mode 100644 deletefile.txtlose the file... unix2dos: converting file C:/FrontEnd/Git Project/.git/COMMIT_EDITMSG to DOS format...
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ nhweurhweu
+bash: nhweurhweu: command not found
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git log --onelinegit status
+fatal: ambiguous argument 'status': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   file1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git add .
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   file1.txt
+
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git log --oneline
+ed412c2 (HEAD -> master) Revert "file to be deleted from project folder"
+ab26764 file to be deleted from project folder
+eb60688 file 1 is updated to check status and file 2 redy to deleted
+7c0b5c3  Added .gitignore to untrack class and jar ,temp,bin
+c4da1fb  change the login status
+b68c100 large number file
+8477434 file1 welcome hello txt file
+e10aff5 file1 welcome hello txt file
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git revert ab26764
+error: your local changes would be overwritten by revert.
+hint: commit your changes or stash them to proceed.
+fatal: revert failed
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   file1.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   file1.txt
+
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git add .
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git log --oneline
+ed412c2 (HEAD -> master) Revert "file to be deleted from project folder"
+ab26764 file to be deleted from project folder
+eb60688 file 1 is updated to check status and file 2 redy to deleted
+7c0b5c3  Added .gitignore to untrack class and jar ,temp,bin
+c4da1fb  change the login status
+b68c100 large number file
+8477434 file1 welcome hello txt file
+e10aff5 file1 welcome hello txt file
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git revert ab26764
+error: your local changes would be overwritten by revert.
+hint: commit your changes or stash them to proceed.
+fatal: revert failed
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git revert ab26764
+error: your local changes would be overwritten by revert.
+hint: commit your changes or stash them to proceed.
+fatal: revert failed
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ ^C
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git revert ed412c2
+error: your local changes would be overwritten by revert.
+hint: commit your changes or stash them to proceed.
+fatal: revert failed
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git reset^C
+
+
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ ^C
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git reset eb60688
+Unstaged changes after reset:
+M       file1.txt
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$ git log --oneline
+eb60688 (HEAD -> master) file 1 is updated to check status and file 2 redy to deleted
+7c0b5c3  Added .gitignore to untrack class and jar ,temp,bin
+c4da1fb  change the login status
+b68c100 large number file
+8477434 file1 welcome hello txt file
+e10aff5 file1 welcome hello txt file
+
+sanyukta_nirmal@ELTP-UI-8 MINGW64 /c/FrontEnd/Git Project (master)
+$
+
 user.email=sanyukta_nirmal@persistent.com
 core.editor=notepad
