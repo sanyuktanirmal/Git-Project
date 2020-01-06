@@ -24,7 +24,8 @@ diff.astextplain.textconv=astextplain
 filter.lfs.clean=git-lfs clean -- %f
 filter.lfs.smudge=git-lfs smudge -- %f
 filter.lfs.process=git-lfs filter-process
-filter.lfs.required=true
+filter.lfs.requgit status
+ired=true
 credential.helper=manager
 add.interactive.usebuiltin=true
 user.name=sanyukta nirmal
