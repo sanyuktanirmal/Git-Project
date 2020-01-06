@@ -3,12 +3,17 @@ hello world....
 
 
 large number file...
-change the logic for update
+changge the logic for update
 
-change to check file status
+changge to check file status
 
-change to revert opption
+changge to revert opption
 
 
 new bug branch
 bug fix
+
+latest bug 2 branch for fixing
+
+
+change added by another master team member on remote server
