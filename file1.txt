@@ -11,9 +11,11 @@ changge to revert opption
 
 
 new bug branch
-bug fix
+
 
 latest bug 2 branch for fixing
 
 
-change added by another master team member on remote server
+change added by another master team member on remote server bug2
+
+
